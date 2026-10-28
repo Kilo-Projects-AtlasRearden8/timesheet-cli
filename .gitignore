@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.timesheet.json
+timesheet.json
+*.csv
+.env
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
+.ipynb_checkpoints/

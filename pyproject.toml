@@ -1,0 +1,15 @@
+[project]
+name = "timesheet-cli"
+version = "1.0.0"
+description = "Local-first CLI to log hours by client and project, compute weekly totals, and export CSV."
+requires-python = ">=3.9"
+
+[project.scripts]
+timesheet = "timesheet_cli.cli:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["timesheet_cli*"]
